@@ -1,7 +1,7 @@
 
-
+"use client"
 import { useState, useEffect } from "react";
-import { api } from "../api";
+import { api } from "../api/index.js";
 
 export function useData() {
     const [results, setResults] = useState([]);

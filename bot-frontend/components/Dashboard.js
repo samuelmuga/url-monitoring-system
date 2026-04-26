@@ -1,10 +1,10 @@
 
-
+"use client"
 import React from "react";
-import { useData } from "../hooks/useData";
-import ResultsTable from "./ResultsTable";
-import AnalyticsPanel from "./AnalyticsPanel";
-import Charts from "./Charts";
+import { useData } from "../hooks/useData.js";
+import ResultsTable from "./ResultsTable.js";
+import AnalyticsPanel from "./AnalyticsPanel.js";
+import Charts from "./charts.js";
 
 function Dashboard() {
     const {

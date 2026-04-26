@@ -7,8 +7,9 @@
     "monitor": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "dependencies": {
-    "concurrently": "^8.0.0",
+    "@next/swc-win32-x64-msvc": "^16.2.4",
     "axios": "^1.15.2",
+    "concurrently": "^8.0.0",
     "cors": "^2.8.6",
     "node-cron": "^4.2.1"
   }
